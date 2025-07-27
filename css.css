@@ -372,24 +372,20 @@ body {
     align-items: flex-start;
     padding: 15px 20px;
   }
-
   .logo {
     font-size: 20px;
     margin-bottom: 10px;
   }
-
   .nav a {
     display: inline-block;
     margin: 5px 10px 5px 0;
     font-size: 14px;
   }
-
   .hero {
     flex-direction: column-reverse;
     text-align: center;
     padding: 30px 20px;
   }
-
   .products {
     grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
@@ -398,7 +394,6 @@ body {
   .hero-text {
     max-width: 100%;
   }
-
   .hero-title {
     font-size: 32px;
   }
@@ -416,7 +411,7 @@ body {
   .product-card img {
     max-height: 200px;
   }
-  .dolar {
+  .dolar{
     font-size: 18px;
   }
   .button {
@@ -499,7 +494,7 @@ body {
   .footer-links ul {
     padding-left: 10px;
   }
-  .footer-socials {
+  .footer-socials{
     justify-content: center;
   }
 .info-image .badge{
