@@ -395,7 +395,7 @@ body {
     gap: 15px;
     padding: 20px;
   }
-}
+
 
   .hero-text {
     max-width: 100%;
@@ -519,4 +519,5 @@ body {
   }
 .info-image .badge{
   display: none;
+}
 }
