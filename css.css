@@ -508,8 +508,3 @@ body {
 }
 
 
-@media (max-width: 480px) {
-  body {
-    background-color: pink !important;
-  }
-}
