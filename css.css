@@ -8,6 +8,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
+/* header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -44,6 +45,9 @@ body {
   color: black;
   font-weight: bold;
 }
+
+
+/* hero section */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -53,19 +57,15 @@ body {
 .hero-text {
   max-width: 50%;
 }
-
 .hero-title {
   font-weight: bold;
   font-size: 65px;
 }
-
-/* Paragraph styling inside hero or sections */
 .pera {
   color: #abaaaa;
   font-size: 16px;
   line-height: 1.6;
 }
-
 .hero-img img {
   max-width: 400px;
 }
@@ -123,7 +123,6 @@ body {
     width:100%;
     padding: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 .info-section {
   display: flex;
@@ -181,7 +180,7 @@ body {
 .deals-section {
   display: flex;
   gap: 20px;
-   height: 500px; /* Fixed height for consistency */
+   height: 500px; 
   padding: 60px 5%;
 }
 .deals-left {
@@ -192,7 +191,7 @@ body {
   width: 20%;
 }
 .deals-right {
-  flex: 1.2; /* Increased to take more space */
+  flex: 1.2; 
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -206,7 +205,6 @@ body {
   flex: 1;
 }
 
-/* Image styles */
 .deal-img img,
 .deal-img2 img {
   width: 100%;
@@ -216,7 +214,6 @@ body {
   border-radius: 8px;
 }
 
-/* Dark overlay for left-side images */
 .deal-img::after {
   content: '';
   position: absolute;
@@ -227,8 +224,6 @@ body {
   pointer-events: none;
   z-index: 1;
 }
-
-/* Offer text center-aligned on image */
 .offer,
 .offer2 {
   position: absolute;
@@ -242,20 +237,14 @@ body {
   text-align: center;
   border-radius: 8px;
 }
-
-/* Slightly larger font for right side offer */
 .offer2 {
   font-size: 32px;
 }
-
-/* "Shop Now" link */
 .shop {
   color: white;
   font-weight: 500;
   text-decoration: underline;
 }
-
-/* Optional offer tag if used */
 .offer-tag {
   position: absolute;
   bottom: 10px;
@@ -396,13 +385,13 @@ body {
   }
 
   .hero {
-    flex-direction: column-reverse; /* 👈 Image will appear first, then text */
+    flex-direction: column-reverse;
     text-align: center;
     padding: 30px 20px;
   }
 
   .products {
-    grid-template-columns: repeat(2, 1fr); /* 👈 Show 2 products side by side */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
     padding: 20px;
   }
@@ -529,5 +518,5 @@ body {
     justify-content: center;
   }
 .info-image .badge{
-  display: hidden;
+  display: none;
 }
