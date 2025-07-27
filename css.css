@@ -259,7 +259,7 @@ body {
 
 
 .join {
-  background-image: url('./assets/news-letter-bg.png'); /* path to your image */
+  background-image: url('/assets/news-letter-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -366,7 +366,7 @@ body {
 
 
 /* media file */
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
@@ -505,4 +505,4 @@ body {
 .info-image .badge{
   display: none;
 }
-} */
+}
