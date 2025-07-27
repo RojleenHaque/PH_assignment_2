@@ -396,10 +396,17 @@ body {
   }
 
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse; /* 👈 Image will appear first, then text */
     text-align: center;
     padding: 30px 20px;
   }
+
+  .products {
+    grid-template-columns: repeat(2, 1fr); /* 👈 Show 2 products side by side */
+    gap: 15px;
+    padding: 20px;
+  }
+}
 
   .hero-text {
     max-width: 100%;
@@ -423,11 +430,11 @@ body {
     padding: 0 10px;
   }
 
-  .products {
+  /* .products {
     grid-template-columns: 1fr;
     gap: 15px;
     padding: 20px;
-  }
+  } */
 
   .product-card img {
     max-height: 200px;
@@ -521,4 +528,6 @@ body {
   .footer-socials {
     justify-content: center;
   }
+.info-image .badge{
+  display: hidden;
 }
