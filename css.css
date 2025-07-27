@@ -373,3 +373,152 @@ body {
   width: 32px;
   height: 32px;
 }
+
+
+
+/* media file */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    font-size: 14px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .pera2 {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .product-card img {
+    max-height: 200px;
+  }
+
+  .dolar {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .info-section {
+    flex-direction: column;
+    margin: 30px 15px;
+  }
+
+  .info-image .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .badge {
+    max-width: 100px;
+    top: -10px;
+  }
+
+  .info-content {
+    padding-right: 0;
+  }
+
+  .info-content h2 {
+    font-size: 22px;
+  }
+
+  .info-content .pera3 {
+    font-size: 26px;
+  }
+
+  .deals-section {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+  }
+  .deals-left,
+  .deals-right {
+    width: 100%;
+    flex: none;
+  }
+  .deal-img,
+  .deal-img2 {
+    height: auto;
+  }
+  .deal-img img,
+  .deal-img2 img {
+    height: auto;
+    object-fit: contain;
+  }
+  .offer,
+  .offer2 {
+    font-size: 20px;
+  }
+  .join {
+    padding: 40px 20px;
+  }
+  .join h2 {
+    font-size: 22px;
+  }
+  .join button,
+  .join .btn2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .footer {
+    padding: 30px 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer-links ul {
+    padding-left: 10px;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+}
